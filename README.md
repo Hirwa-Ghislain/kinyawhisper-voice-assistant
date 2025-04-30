@@ -56,8 +56,9 @@ This project was developed as part of an **Intelligent Robotics** assignment to 
 - Dataset: 44-word Kinyarwanda dataset built using [BearAudioTool](https://www.bearaudiotool.com/)
 - Model: Fine-tuned `openai/whisper-small`
 - Epochs:
-  - 1st run: 20 epochs
-  - 2nd run: 40 more epochs
+  - 1st run: 40 epochs
+    - ![Inference](./imgs/Capture%20d’écran%20du%202025-04-29%2019-57-02.png) 
+  - 2nd run: 20 more epochs
   - 3rd run: 10 final epochs
 - Inference tested on all 44 samples with good to generous transcription accuracy
 
