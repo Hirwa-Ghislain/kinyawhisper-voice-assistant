@@ -69,7 +69,7 @@ This project was developed as part of an **Intelligent Robotics** assignment to 
 ### 1. Clone and Install Requirements
 
 ```bash
-git clone https://github.com/hrh2/kinyawhisper-voice-assistant.git
+git clone https://github.com/Hirwa-Ghislain/kinyawhisper-voice-assistant
 cd kinyawhisper-voice-assistant
 pip install transformers[torch] datasets torchaudio warnings difflib pyttsx3 sounddevice
 ```
