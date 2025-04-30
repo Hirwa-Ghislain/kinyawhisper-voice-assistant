@@ -58,8 +58,8 @@ This project was developed as part of an **Intelligent Robotics** assignment to 
 - Epochs:
   - 1st run: 40 epochs
     - ![Inference](./imgs/Capture%20d’écran%20du%202025-04-29%2019-57-02.png) 
-  - 2nd run: 20 more epochs
-  - 3rd run: 10 final epochs
+  - 2nd run over pre fine-tuned 40 epochs model : 20 more epochs
+  - 3rd run over pre fine-tuned 40+20 epochs model: 10 final epochs
 - Inference tested on all 44 samples with good to generous transcription accuracy
 
 ---
@@ -73,7 +73,6 @@ git clone https://github.com/hrh2/kinyawhisper-voice-assistant.git
 cd kinyawhisper-voice-assistant
 pip install transformers[torch] datasets torchaudio warnings difflib pyttsx3 sounddevice
 ```
-
 ### 2. Run Main App (Batch Mode)
 
 ```bash
@@ -83,6 +82,17 @@ python main.py
 Transcribes all WAV files in `audio/`, matches them to answers, and reads them aloud.
 
 ### 3. Run CLI App (Live Recording)
+
+- uncomment line 66 on  the initial run
+
+```python
+# model = WhisperForConditionalGeneration.from_pretrained("openai/whisper-small") #first time
+```
+- comment the line following 66 on the initial un
+
+```python
+model = WhisperForConditionalGeneration.from_pretrained("./kinya-whisper-model")
+```
 
 ```bash
 python bach_main.py

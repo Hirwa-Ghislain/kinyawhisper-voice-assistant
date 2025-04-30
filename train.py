@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """
+BY HIRWA
 train.py
 
 Fine-tunes OpenAI's Whisper model for Kinyarwanda ASR on a custom dataset.
@@ -71,7 +72,7 @@ training_args = TrainingArguments(
     output_dir="./kinya-whisper-model",
     per_device_train_batch_size=4,
     learning_rate=1e-5,
-    num_train_epochs=10,       # ⏱️ long-haul
+    num_train_epochs=90,       # ⏱️ long-haul
     logging_steps=5,
     save_strategy="epoch",     # auto-saves checkpoints
     fp16=False,

@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """
+BY HIRWA
+
 main.py
 
 CLI: Records one audio sample, transcribes it, and gives an answer.
