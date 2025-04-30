@@ -1,6 +1,6 @@
 # 🗣️ Kinyarwanda Voice Assistant – "KinyaWhisper"
 
-A voice-enabled mini assistant that understands and responds in **Kinyarwanda**, designed to simulate how intelligent humanoid robots interact with humans in local languages. Built from scratch using ASR (Whisper), NLP, and TTS (pyttsx3), this project showcases the potential of AI for localized voice interaction.
+A voice-enabled mini assistant that understands **Kinyarwanda** and responds , designed to simulate how intelligent humanoid robots interact with humans in local languages. Built from scratch using ASR (Whisper), NLP, and TTS (pyttsx3), this project showcases the potential of AI for localized voice interaction.
 
 ---
 
