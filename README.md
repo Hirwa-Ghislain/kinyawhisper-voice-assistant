@@ -1,20 +1,20 @@
-# 🗣️ Kinyarwanda Voice Assistant – "KinyaWhisper"
+#  Kinyarwanda Voice Assistant – "KinyaWhisper"
 
 A voice-enabled mini assistant that understands **Kinyarwanda** and responds , designed to simulate how intelligent humanoid robots interact with humans in local languages. Built from scratch using ASR (Whisper), NLP, and TTS (pyttsx3), this project showcases the potential of AI for localized voice interaction.
 
 ---
 
-## 🎯 Project Summary
+##  Project Summary
 
 This project was developed as part of an **Intelligent Robotics** assignment to build a simple voice assistant for Kinyarwanda speakers. It includes:
 
-- 🎤 **Automatic Speech Recognition (ASR)**: Fine-tuned Whisper model on a custom Kinyarwanda dataset.
-- 🧠 **Natural Language Processing (NLP)**: Rule-based question-answer matching with fuzzy logic.
-- 🗣️ **Text-to-Speech (TTS)**: Voice responses using the `pyttsx3` library.
+-  **Automatic Speech Recognition (ASR)**: Fine-tuned Whisper model on a custom Kinyarwanda dataset.
+-  **Natural Language Processing (NLP)**: Rule-based question-answer matching with fuzzy logic.
+-  **Text-to-Speech (TTS)**: Voice responses using the `pyttsx3` library.
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 .
@@ -31,7 +31,7 @@ This project was developed as part of an **Intelligent Robotics** assignment to 
 
 ---
 
-## 🚀 How It Works
+##  How It Works
 
 1. **ASR**: User speaks or loads audio → Whisper model transcribes it.
 2. **NLP**: Assistant uses exact/fuzzy matching to map transcription to predefined answers.
@@ -39,7 +39,7 @@ This project was developed as part of an **Intelligent Robotics** assignment to 
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Python 3.10+**
 - **OpenAI Whisper (fine-tuned)**
@@ -51,7 +51,7 @@ This project was developed as part of an **Intelligent Robotics** assignment to 
 
 ---
 
-## 🧠 Training Details
+##  Training Details
 
 - Dataset: 44-word Kinyarwanda dataset built using [BearAudioTool](https://www.bearaudiotool.com/)
 - Model: Fine-tuned `openai/whisper-small`
@@ -64,7 +64,7 @@ This project was developed as part of an **Intelligent Robotics** assignment to 
 
 ---
 
-## ▶️ How To Run
+##  How To Run
 
 ### 1. Clone and Install Requirements
 
@@ -118,7 +118,7 @@ Fine-tunes Whisper using `dataset.jsonl` and saves to `./kinya-whisper-model/`.
 
 ---
 
-## 📌 Sample QA Dictionary
+##  Sample QA Dictionary
 
 | Question (Kinyarwanda)        | Assistant Response                         |
 |------------------------------|--------------------------------------------|
@@ -132,7 +132,7 @@ Fuzzy and partial matches are supported to improve recognition.
 
 ---
 
-## 🧪 Example Audio Commands
+##  Example Audio Commands
 
 Upload your own `.wav` files into the `audio/` folder or record with `bach_main.py`. Examples:
 - `muraho`
@@ -143,16 +143,9 @@ Upload your own `.wav` files into the `audio/` folder or record with `bach_main.
 
 ---
 
-## 🎓 Academic Info
 
-- **Course**: Intelligent Robotics  
-- **Instructor**: [Gabriel Baziramwabo ](https://www.researchgate.net/profile/Gabriel-Baziramwabo) 
-- **School**: [Rwanda Coding Academy](https://rca.ac.rw/)  
+##  Author
 
----
-
-## 👤 Author
-
-**HIRWA Rukundo Hope**  
-Email: gakundohope5@gmail.com  
-GitHub: [@hrh2](https://github.com/hrh2)
+**HIRWA Ghislain**  
+Email: ghislainhirwa11@gmail.com  
+GitHub: [@Hirwa-Ghislain](https://github.com/Hirwa-Ghislain)
